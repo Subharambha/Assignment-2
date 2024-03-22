@@ -1,0 +1,107 @@
+body {
+    background-color: #121111;
+    font-family: 'Arial', sans-serif;
+}
+
+.poster {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #555;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.quote {
+    font-style: italic;
+    color: #888;
+}
+
+.movie {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.poster-image {
+    background-image: url('Aga.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    height: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.poster-image figcaption {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 150px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.gallery-item {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
